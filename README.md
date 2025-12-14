@@ -72,3 +72,60 @@
 <img width="1280" height="833" alt="image" src="https://github.com/user-attachments/assets/eada9e43-9773-4357-90bf-5fb750d7fd8e" />
 <img width="1008" height="846" alt="image" src="https://github.com/user-attachments/assets/43d7f1a2-0922-4f44-bbf8-3be8a63ecafd" />
 
+## Лабораторная работа 3. Представления и процедуры
+
+**Цель: Освоение механизмов абстракции данных и программных модулей.**
+
+## Представления
+
+### Представление 1: Отчет по товарам в магазинах
+
+**Views**
+
+Представление предназначено для формирования отчета по товарам в магазинах с подсчетом общей стоимости каждого товара
+<img width="1139" height="823" alt="image" src="https://github.com/user-attachments/assets/f48267b8-3319-4d4f-ac84-c7db79ad67a8" />
+
+**Пример использования представления:**
+
+<img width="800" height="814" alt="image" src="https://github.com/user-attachments/assets/389aa462-4655-456a-8b03-283e6bc9ae15" />
+
+### Представление 2: Статистика по магазинам
+
+Представление формирует  информацию по каждому магазину: количество товаров, суммарное количество единиц товара и общую стоимость
+
+<img width="881" height="604" alt="image" src="https://github.com/user-attachments/assets/d8c34e99-1572-43e2-9acc-90f13aa5c63b" />
+
+**Пример использования представления:**
+<img width="897" height="947" alt="image" src="https://github.com/user-attachments/assets/576591ea-d8f4-4f47-ac6d-5bd4b895c5ce" />
+
+## Хранимая процедура
+
+Процедура добавления товара в магазин
+
+Процедура add_product_to_shop предназначена для добавления товара в конкретный магазин с проверкой корректности входных данных
+Если товар уже присутствует в магазине, происходит обновление количества.
+
+**Параметры процедуры**
+
+- идентификатор магазина
+- дентификатор товара
+- единица измерения
+- цена
+- количество
+<img width="1409" height="917" alt="image" src="https://github.com/user-attachments/assets/7ed42edd-68d2-4840-917f-0c23522ff80d" />
+
+**Проверка работы процедуры**
+
+<img width="1036" height="1046" alt="image" src="https://github.com/user-attachments/assets/b15009a0-3801-4b41-aff6-6d3bb901b0e8" />
+
+
+**Проверка ошибка**
+
+<img width="1083" height="879" alt="image" src="https://github.com/user-attachments/assets/16c1d670-cda3-4cbb-8232-8f32f8ce0af2" />
+
+
+<img width="985" height="878" alt="image" src="https://github.com/user-attachments/assets/c72e0868-f3f7-4dc1-92ee-25a87a5db505" />
+
+<img width="1211" height="878" alt="image" src="https://github.com/user-attachments/assets/12f53f5b-4e20-4140-be70-55d7673460d9" />
+
+
