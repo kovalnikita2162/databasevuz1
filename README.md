@@ -49,6 +49,10 @@
 ## Заполнение таблиц
 <img width="828" height="838" alt="image" src="https://github.com/user-attachments/assets/a4fca135-67df-4ea9-bdbd-3077753bcdc9" />
 
+**Вот таблицы**
+<img width="564" height="1077" alt="image" src="https://github.com/user-attachments/assets/31401d6e-0ab8-496c-b9c5-5173f05ad258" />
+
+
 ## Проверка нормальных форм
 
 **Первая нормальная форма (1НФ):**
