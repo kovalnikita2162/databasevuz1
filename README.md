@@ -128,4 +128,32 @@
 
 <img width="1211" height="878" alt="image" src="https://github.com/user-attachments/assets/12f53f5b-4e20-4140-be70-55d7673460d9" />
 
+# Лабораторная работа 4  Анализ производительности базы данных 
 
+**Цель - Освоение методов анализа и оптимизации производительности БД.**
+
+**Для анализа производительности база данных была заполнена большим объемом данных**
+
+<img width="607" height="511" alt="image" src="https://github.com/user-attachments/assets/102a00dc-bb3e-476e-b7b7-f45ed849e73f" />
+
+## Анализ производительности без оптимизации
+<img width="707" height="310" alt="image" src="https://github.com/user-attachments/assets/81d2f790-ee77-4a08-a783-1f9494dc53d4" />
+
+<img width="576" height="278" alt="image" src="https://github.com/user-attachments/assets/56ecc337-74ed-4e5a-bbdb-c9a8c901c72a" />
+
+<img width="844" height="446" alt="image" src="https://github.com/user-attachments/assets/455cba0b-a481-44f7-b208-0456fc125804" />
+
+В плане выполнения запроса используются следующие операции:
+
+- Bitmap Index Scan
+
+- Index Scan
+
+**Создание индексов**
+<img width="731" height="888" alt="image" src="https://github.com/user-attachments/assets/e2ade9ba-65e5-4fba-b16a-84a8130a349d" />
+
+**Повторный анализ после оптимизации**
+<img width="773" height="309" alt="image" src="https://github.com/user-attachments/assets/e4eda99f-35d3-4306-9aaa-beb6e350ca53" />
+
+До оптимизации время выполнения запроса состовляло 3.658 мc, происходило сканирование всей стаблицы из 20000 строк.
+После оптимизации выполнение запроса происходит по индексу и составляет 0.083 мс, что в 45 раз быстрее.
