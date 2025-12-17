@@ -136,18 +136,14 @@
 
 <img width="607" height="511" alt="image" src="https://github.com/user-attachments/assets/102a00dc-bb3e-476e-b7b7-f45ed849e73f" />
 
-## Анализ производительности без оптимизации
-<img width="707" height="310" alt="image" src="https://github.com/user-attachments/assets/81d2f790-ee77-4a08-a783-1f9494dc53d4" />
-
 <img width="576" height="278" alt="image" src="https://github.com/user-attachments/assets/56ecc337-74ed-4e5a-bbdb-c9a8c901c72a" />
 
 <img width="844" height="446" alt="image" src="https://github.com/user-attachments/assets/455cba0b-a481-44f7-b208-0456fc125804" />
 
-В плане выполнения запроса используются следующие операции:
+## Анализ производительности без оптимизации
+<img width="707" height="310" alt="image" src="https://github.com/user-attachments/assets/81d2f790-ee77-4a08-a783-1f9494dc53d4" />
 
-- Bitmap Index Scan
 
-- Index Scan
 
 **Создание индексов**
 <img width="731" height="888" alt="image" src="https://github.com/user-attachments/assets/e2ade9ba-65e5-4fba-b16a-84a8130a349d" />
