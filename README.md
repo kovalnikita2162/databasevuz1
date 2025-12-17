@@ -1,4 +1,4 @@
-# Лабораторная работа 1 по дисциплине "Базы данных"
+<img width="984" height="1301" alt="image" src="https://github.com/user-attachments/assets/d1692d3a-ea7a-4ca2-a5e7-8d9ba6b84ba7" /># Лабораторная работа 1 по дисциплине "Базы данных"
 # ФИО студента, номер учебной группы 
 Ковальчук Никита Владимирович 2262
 # Вариант 5 Магазины
@@ -141,15 +141,29 @@
 <img width="844" height="446" alt="image" src="https://github.com/user-attachments/assets/455cba0b-a481-44f7-b208-0456fc125804" />
 
 ## Анализ производительности без оптимизации
+
+<img width="940" height="1229" alt="image" src="https://github.com/user-attachments/assets/6ba8457e-707a-4bc2-bf51-d1381ce07e12" />
+
 <img width="707" height="310" alt="image" src="https://github.com/user-attachments/assets/81d2f790-ee77-4a08-a783-1f9494dc53d4" />
 
-
-
 **Создание индексов**
+
 <img width="731" height="888" alt="image" src="https://github.com/user-attachments/assets/e2ade9ba-65e5-4fba-b16a-84a8130a349d" />
 
 **Повторный анализ после оптимизации**
+
+<img width="984" height="1301" alt="image" src="https://github.com/user-attachments/assets/4d05b024-655c-4f85-bdcf-d94d268d4dc7" />
+
+
 <img width="773" height="309" alt="image" src="https://github.com/user-attachments/assets/e4eda99f-35d3-4306-9aaa-beb6e350ca53" />
+
+**Без иднексов**
+
+Тип сканирования Seq Scan
+
+**C индексами** 
+
+Bitmap Scan
 
 До оптимизации время выполнения запроса состовляло 3.658 мc, происходило сканирование всей стаблицы из 20000 строк.
 После оптимизации выполнение запроса происходит по индексу и составляет 0.083 мс, что в 45 раз быстрее.
