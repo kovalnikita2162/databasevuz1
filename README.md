@@ -167,3 +167,45 @@ Bitmap Scan
 
 До оптимизации время выполнения запроса состовляло 3.658 мc, происходило сканирование всей стаблицы из 20000 строк.
 После оптимизации выполнение запроса происходит по индексу и составляет 0.083 мс, что в 45 раз быстрее.
+
+# Лабораторная работа 5. Триггеры и аудит
+
+**Цель - Реализация бизнес-логики на уровне БД и системы аудита**
+
+## 1 Каскадное удаление товаров магазина
+
+**При удалении магазина автоматически удаляются все связанные записи о товарах в этом магазине**
+
+<img width="1114" height="948" alt="image" src="https://github.com/user-attachments/assets/78981f23-817b-4068-b177-72f1e492088b" />
+
+**Триггер**
+<img width="1020" height="944" alt="image" src="https://github.com/user-attachments/assets/9f500a67-d44d-4d5b-b5ee-ab320233007a" />
+
+## 2 Каскадное удаление товара из всех магазинов
+
+**Функция каскадного удаления**
+**При удалении товара он автоматически удаляется из всех магазинов.**
+<img width="1029" height="966" alt="image" src="https://github.com/user-attachments/assets/6f5b9582-9e21-4f9f-8a69-0dd2f0feca35" />
+
+**trigger**
+<img width="880" height="951" alt="image" src="https://github.com/user-attachments/assets/0cfee429-27d1-4480-88a6-dd48fcafcae7" />
+
+## 3 Таблица аудита изменений
+**Для хранения истории изменений создана универсальная таблица аудита**
+<img width="935" height="1020" alt="image" src="https://github.com/user-attachments/assets/e795011e-1010-4124-8b01-64eea3e08d4d" />
+
+## 4 Универсальная функция аудита изменений
+**Функция фиксирует операции INSERT, UPDATE и DELETE для таблиц базы данных**
+<img width="1046" height="900" alt="image" src="https://github.com/user-attachments/assets/d208e76d-e82e-474c-8d56-3467c2bd7d0f" />
+
+## 5 Проверка работы аудита
+**INSERT**
+<img width="685" height="892" alt="image" src="https://github.com/user-attachments/assets/8fd34214-2ca8-4ae1-afc2-d6e6a8153973" />
+**UPDATE**
+<img width="823" height="892" alt="image" src="https://github.com/user-attachments/assets/f615b5c4-bc37-4d24-b9ba-6f60fc4fd08a" />
+**DELETE**
+<img width="844" height="880" alt="image" src="https://github.com/user-attachments/assets/de8ca8a7-8274-4c98-a3d4-14ef9bc3a30f" />
+
+## 6 Просмотр журнала аудита
+<img width="1404" height="1122" alt="image" src="https://github.com/user-attachments/assets/12309e9b-d29d-4c3a-94e2-96b8a734c662" />
+
